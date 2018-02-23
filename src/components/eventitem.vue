@@ -1,5 +1,5 @@
 <template lang="html">
-  <div class="col-md-4">
+  <div class="col-md-12">
     <div class="event-card">
       <h4 class="card-title">{{event.title}}</h4>
       <p class="card-text">{{event.description}}</p>

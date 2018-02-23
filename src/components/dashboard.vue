@@ -7,9 +7,10 @@
   <hr>
   <div class="col-md-12">
       <EventItem
-      v-for="(event_item, index) in this.$store.state.event"
+      v-for="(event_item, index) in this.$store.state.events"
       :event="event_item"
       key="index"
+      />
   </div>
   </div>
 </template>
@@ -17,7 +18,7 @@
 <script>
 import { firebaseApp, eventsRef } from '../firebaseApp'
 import AddEvent from './event.vue'
-import EventItem from './eventitem'
+import EventItem from './eventitem.vue'
 
 export default {
   methods: {

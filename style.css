@@ -12,3 +12,9 @@
   top: 60px;
   right: 40px;
 }
+
+.event-card {
+  border: 2px solid #2c3e50;
+  margin-top: 10px;
+  border-radius: 4px;
+}
